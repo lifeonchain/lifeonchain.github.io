@@ -66,10 +66,7 @@
         <section class="shape shape-bottom-right-left shape-yellow" id="activity_logo_section">
             <div class="section-container" style="margin-top: 100px;">
                 <div class="container" style="padding-top: 2rem; text-align: left;">
-                    <!--
                     <img src="/img/litiunbeh-detail-logo.png" class="intro-detail-img img-fluid" id="activity_logo_img" />
-                    -->
-                    <img src="" class="intro-detail-img img-fluid" id="activity_logo_img" />
                 </div>
             </div>
         </section>
@@ -171,6 +168,7 @@
             $('#activity_logo_section').css('height', $('#activity_logo_img').height()+70+'px');
             $('#signup_section').css('height', $('#signup_img').height()+parseInt($('#signup_section').css('border-top-width'))+30+'px');
             $('#activity_section').css('height', $('#activity_section').find('.section-container').height()+parseInt($('#activity_section').css('border-top-width'))+32+'px');
+            $('#location_img').css('margin-top', '-'+$('#activity_logo_section').css('border-bottom-width'));
         }
     </script>
 
