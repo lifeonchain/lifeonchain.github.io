@@ -400,6 +400,10 @@ footer .row {
     height: 100%;
 }
 
+.card-columns {
+    column-count: 4;
+}
+
 @media (max-width: 992px) {
     .navbar-nav {
         flex-direction: column;
@@ -417,6 +421,10 @@ footer .row {
 
     .nav-item.active {
         border-bottom: initial;
+    }
+
+    .card-columns {
+        column-count: 3;
     }
 }
 
@@ -440,6 +448,10 @@ footer .row {
     .main-figure {
         height: 40vh;
     }
+
+    .card-columns {
+        column-count: 2;
+    }
 }
 
 @media (max-width: 576px) {
@@ -458,5 +470,9 @@ footer .row {
 
     .movie-intro-img {
         background-image: url('/img/movie-page-mobile.jpg') !important;
+    }
+
+    .card-columns {
+        column-count: 1;
     }
 }
